@@ -35,7 +35,7 @@ User stories
 
 - Its own project on your laptop and Github.
 - Be git tracked.
-- Have 5 commits minium!
+- Have 5 commits minimum!
 - Have documentation.
 - Follows best practices.
 

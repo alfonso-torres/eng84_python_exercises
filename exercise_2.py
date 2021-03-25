@@ -39,15 +39,26 @@ def check_item(name):
 # We will use a list to save the items that the customer wants to order
 order = []
 
+# Function that will print the current order as well as the total
+def print_order():
+    total_order = 0 # We will save the cost of all of items that are in the order
+    print("Items in the current order: ")
+    for item in order:
+        print(f"- {item}")
+        total_order += menu[item]
+    print(f"Total of the order: £{total_order}")
+
 # Let's ask the customer what items he wants to order
 making_order = True
 while making_order:
-    item = input("Please enter the name of the item you wish to add in your order or END to finish the order: ")
+    item = input("Please enter the name of the item you wish to add in your order or END to finish the order OR SHOW to see your order: ")
     if item=="END":
         making_order=False
+    elif item =="SHOW":
+        print_order()
     else:
         if check_item(item)==True:
-            print("Adding the item...")
+            print(f"Adding the item {item} ...... ")
             order.append(item)
         else:
             print("This item is not available in the menu, try again.")
