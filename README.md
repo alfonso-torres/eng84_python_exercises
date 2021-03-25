@@ -1,6 +1,6 @@
 # PYTHON EXERCISES
 
-## Exercise 1: Calculate year of birth
+## <u>Exercise 1: Calculate year of birth</u>
 
 *Tasks*:
 - Define the variables `name` and `age`.
@@ -22,7 +22,7 @@
 - Program defines the variable age and name.
 - Program prints the string `"OMG <person>, you are <age> years old so you were born in <year>"`
 
-## Exercise 2: Restaurant Waiter Helper program
+## <u>Exercise 2: Restaurant Waiter Helper program</u>
 We are going to make a program that helps a waiter with his menu and his orders.
 
 *Tasks*: <br/>
@@ -39,6 +39,78 @@ User stories
 - Have documentation.
 - Follows best practices.
 
-## Exercise 3:
+## <u>Exercise 3: Xmas Holiday List that never ends!</u>
+You have learned about for loops. Time to use that, plus a while loop to keep
+going. Your task is to create a list of xmas gifts using cool control
+flow now!
 
-## Exercise 4:
+*Tasks*: <br/>
+User stories
+- As a user, I want to be able to add items to the list, so I can read it later.
+- As a user, I want to be able to keep adding things to the list until I use exit
+- As as user, I should be able to use the word exit in a sentence and still have the program terminate, so that anyone can use it 
+- As a user, when the program exits, I want to see the complete list in caps lock and numbered, so that I know what to buy. Example: <br/>
+  1 - RC car <br/>
+  2 - PS2 <br/>
+  3 - GTA Vice City
+- Hint: while loops and break conditions, use list and append, iterate to print.  
+
+*Acceptance Criteria*:
+
+- All user stories are completed.
+- Has documentation.
+
+## <u>Exercise 4: Fizz Buzz!</u>
+Super simple game that will substitute multiples of 3 and 5 for Fizz and
+Buzz respectively, or Fizzbuzz for multiples of the both. 
+
+*Tasks*:
+- Write a program that prints the numbers from 1 to 100.
+- For multiples of three print "Fizz" instead of the number.
+- For the multiples of five print "Buzz" instead of the number.
+- For numbers which are multiples of both three and five print "FizzBuzz".
+
+*Extra*:
+- Make a new fizzbuzz file and make it functional make it, so we can decide
+which numbers to substitute for fizz and buzz using functions.
+- Hint: loop, range, control flow.  
+  
+*Acceptance Criteria*:
+- All core task are done.
+- Code compiles without error.
+
+## <u>Exercise 5: Functional Calculator</u>
+Amazing you now know functions, lets make a functional calculator.
+
+*Tasks*:
+- Create an `add` function.
+- Create a `subtract` function.
+- Crate a `multiply` function.
+- Create a `divide` function.
+- Create an `area of a circle` function.
+- Create an `area of a square` function.
+- Create an `area of a triangle` function.
+
+*Extra*:
+- Run the function with arguments.
+- Assert against known values - for example adding 10 + 30 will always be 40.
+- Hint: do one function at a time and use my structure for the running the functions.
+  
+*Acceptance Criteria*:
+- All core functions done.
+- Separation of concerns if followed.
+- DRY code and functions.
+
+## <u>Exercise 6: Loops and lists</u>
+Let's loop over some list!
+
+*Tasks*:
+- Make a loop with a range that says hello 10 times.
+- Create another loop with a range that asks for names and appends to list_names.
+- Make a loop that iterates over each name in list_names and format's so that each name
+  is lowercase, then add these names to a new list called list_names_lower.
+- Iterate over the list of values to find ...?
+
+*Acceptance Criteria*:
+- All tasks have been done.
+

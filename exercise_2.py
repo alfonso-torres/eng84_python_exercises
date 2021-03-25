@@ -1,7 +1,9 @@
+# EXERCISE 2
+
 # Create a program that helps as waiter with his menu and his orders.
 
-#Tasks
-#User stories
+# Tasks
+# User stories
 # As a User I want to be able to see the menu in a formated way, so that I can order my meal.
 # As a User I want to be able to order 3 times, and have my responses added to a list so they aren't forgotten.
 # As a user, I want to have my order read back to me in formated way so I know what I ordered.
