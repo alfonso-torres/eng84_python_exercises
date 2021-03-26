@@ -66,12 +66,12 @@ Buzz respectively, or Fizzbuzz for multiples of the both.
 
 *Tasks*:
 - Write a program that prints the numbers from 1 to 100.
-- For multiples of three print "Fizz" instead of the number.
-- For the multiples of five print "Buzz" instead of the number.
-- For numbers which are multiples of both three and five print "FizzBuzz".
+- For multiples of three print `Fizz` instead of the number.
+- For the multiples of five print `Buzz` instead of the number.
+- For numbers which are multiples of both three and five print `FizzBuzz`.
 
 *Extra*:
-- Make a new fizzbuzz file and make it functional make it, so we can decide
+- Make a new fizzbuzz file and make it functional, so we can decide
 which numbers to substitute for fizz and buzz using functions.
 - Hint: loop, range, control flow.  
   
@@ -109,7 +109,7 @@ Let's loop over some list!
 - Create another loop with a range that asks for names and appends to list_names.
 - Make a loop that iterates over each name in list_names and format's so that each name
   is lowercase, then add these names to a new list called list_names_lower.
-- Iterate over the list of values to find ...?
+- Iterate over the list of values to find if they are even or not.
 
 *Acceptance Criteria*:
 - All tasks have been done.
